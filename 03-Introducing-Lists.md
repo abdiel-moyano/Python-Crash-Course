@@ -64,7 +64,7 @@ list.sort()
 ```
 - Sort temporarily
 ```python
-sortedView = list.sorted()
+sortedView = sorted(list)
 # You can sort it temporarily and recover the original order inmediately
 ```
 - Reverse sort
