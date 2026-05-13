@@ -24,7 +24,7 @@ print ("The " + newList[0] + " is the first element in my list")
 ```
 - Number of elements in your list
 ```python
-list.len()
+len(list)
 ```
 ## Edit, Insert and delete
 - Replace existing value per index
@@ -36,6 +36,10 @@ newList[0] = "newValue"
 newList.insert(0, "newValue")
 # The rest of values are moved one place to the right.
 ```
+- Add a new element at the end
+```python
+newList.append('value4')
+```
 - Delete per index
 ```python
 del list[0]
@@ -43,7 +47,7 @@ del list[0]
 ```
 - Delete per value
 ```python
-list.remove(value1)
+list.remove('value1')
 # You can use when you know the value, but not the index, it deletes only the first occurrence.
 ```
 - Delete the last value and use it
@@ -69,7 +73,7 @@ sortedView = sorted(list)
 ```
 - Reverse sort
 ```python
-messedList.sort(reverse=true)
+messedList.sort(reverse=True)
 ```
 - Reverse
 ```pyhthon
